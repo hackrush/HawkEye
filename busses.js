@@ -1,4 +1,7 @@
-var map = L.map('map', {center: [35.0545, -85.28], zoom: 12}),
+var map = L.map('map', {
+    center: [-0.427781, 36.943359], zoom: 20
+}
+),
     realtime = L.realtime(undefined, {
         getFeatureId: function(f) { return f.id; },
         start: false
